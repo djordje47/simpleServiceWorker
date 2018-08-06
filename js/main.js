@@ -4,13 +4,6 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker
       .register('../sw_cached_pages.js')
       .then(reg => console.log('SW -> Registered'))
-      .catch(err => console.log());
+      .catch(err => console.log(err));
   })
-
-  // window.addEventListener('load', () => {
-  //   navigator.serviceWorker
-  //     .register('../sw_cached_site.js')
-  //     .then(reg => console.log('SW -> Site Caching!'))
-  //     .catch(err => console.log());
-  // })
 }
