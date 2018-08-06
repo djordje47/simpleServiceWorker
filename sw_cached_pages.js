@@ -1,10 +1,10 @@
 const cacheName = 'v1';
 
 const cacheAssets = [
-  'index.html',
-  'about.html',
-  '/css/style.css',
-  '/js/main.js'
+  'https://djordje47.github.io/simpleServiceWorker/index.html',
+  'https://djordje47.github.io/simpleServiceWorker/about.html',
+  'https://djordje47.github.io/simpleServiceWorker/css/style.css',
+  'https://djordje47.github.io/simpleServiceWorker/js/main.js'
 ];
 // Call install event 
 self.addEventListener('install', (e) => {
